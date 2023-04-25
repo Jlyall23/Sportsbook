@@ -1,38 +1,54 @@
-.App {
+/* NAV STYLING */
+#NAV{
+  text-align: center;
+  
+}
+.navLinks{
+  padding: 50px;
+  text-decoration: none;
+  color: black;
+
+}
+
+/* HOME PAGE STYLING */
+#HOME{
+  background-image: url(./images/baseball-field-background-wallpaper-4.jpg);
+  background-size: cover;
+  padding-top: 10px;
+  
+}
+
+#LSN{
+  text-align: center;
+  color: dodgerblue;
+  font-size: 75px;
+}
+#Motto{
+  color: lightcyan;
+  text-align: center;
+}
+#ONLY{
+
+  color: red;
+}
+/* ABOUT PAGE STYLING */
+#aboutHeader{
+  text-align: center;
+}
+#aboutIntro{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NFL PAGE STYLING */
+#NFL-Background{
+  background-size: cover;
+  background-image: url(./images/mccaffrey.jpg);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* FOOTER & BODY */
+#Footer{
+  position: fixed;
+  bottom: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: dodgerblue;
 }
