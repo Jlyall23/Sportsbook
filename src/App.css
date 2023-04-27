@@ -1,6 +1,7 @@
 /* NAV STYLING */
 #NAV{
   text-align: center;
+  background-image: linear-gradient(135deg, #008aff, red);
   
 }
 .navLinks{
@@ -32,17 +33,91 @@
   color: red;
 }
 /* ABOUT PAGE STYLING */
+#aboutpage{
+  background-color: #0e0e10;
+  background-image: url(images/luuuuuke.jpg);
+  
+  background-repeat: no-repeat;
+}
 #aboutHeader{
+ 
   text-align: center;
+  color: white;
+  border: black;
+  border-style: dashed;
+  border-width: 1;
 }
 #aboutIntro{
+  
   text-align: center;
+  color: white;
+  border: black;
+  border-style: dashed;
+  border-width: 1;
 }
 
 /* NFL PAGE STYLING */
 #NFL-Background{
   background-size: cover;
-  background-image: url(./images/mccaffrey.jpg);
+  background-image: url(./images/packers.webp);
+}
+
+#NFLstandingsbtn{
+  position: absolute;
+  left: 45%;
+  background-image: linear-gradient(135deg, #008aff, red);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  height: 50px;
+  width: fit-content;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  }
+#NFLstandingsbtn:hover{
+color: #fff;
+  }
+#NFLstandingsbtn #NFLstandingsbtnspan{
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+#NFLstandingsbtn:hover #NFLstandingsbtnspan{
+  background: transparent;
+}
+
+
+/* NBA PAGE STYLING */
+#NBA-Background{
+  color: white;
+  background-color: black;
+  background-image: url(images/curry2.jpg);
+  background-repeat: no-repeat
+
+}
+#Eastern{
+  color: blue;
+  position: fixed;
+  left: 0;
+  top: 10;
+}
+#Western{
+  color: red;
+  position: fixed;
+  right: 0;
+  top: 10;
+  
 }
 /* FOOTER & BODY */
 #Footer{
