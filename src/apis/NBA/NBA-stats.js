@@ -12,7 +12,7 @@ const options = {
 try {
 	const response = await fetch(url, options);
 	const result = await response.json();
-	console.log(result);
+	return result.response
 } catch (error) {
 	console.error(error);
 }

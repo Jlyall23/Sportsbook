@@ -17,7 +17,7 @@ function NFLStandings(){
      },[])
     return(
         
-        <div>
+        <div id="NFLSTANDINGS">
             NFL STANDINGS
             <ul id="NFC">
         <h1>NFC</h1>

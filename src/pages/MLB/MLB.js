@@ -9,11 +9,14 @@ let navigate = useNavigate()
         <div>
            <span id='MLB-Header'>MLB</span> 
            
-           <button id="MLB-Standings">MLB Standings</button>
+           <button id="MLBstandingsbtn"
+            onClick={() => {
+                navigate('/MLBStandings')
+            }}
+            > 
+                Standings </button>
            
-           <button id="MLB-Scores">MLB Scores</button>
-           
-           <button id="MLB-Stats">MLB Stats</button>
+        
 
       
         </div>

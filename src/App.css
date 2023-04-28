@@ -34,9 +34,10 @@
 }
 /* ABOUT PAGE STYLING */
 #aboutpage{
+  
   background-color: #0e0e10;
   background-image: url(images/luuuuuke.jpg);
-  
+  background-position: center;
   background-repeat: no-repeat;
 }
 #aboutHeader{
@@ -96,6 +97,22 @@ color: #fff;
 #NFLstandingsbtn:hover #NFLstandingsbtnspan{
   background: transparent;
 }
+#AFC{
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: red;
+}
+#NFC{
+  color: blue;
+}
+#NFLSTANDINGS{
+ background-color: black;
+ background-image: url(./images/nflgold.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 /* NBA PAGE STYLING */
@@ -123,7 +140,8 @@ color: #fff;
 #Footer{
   position: fixed;
   bottom: 0;
+  background-color: black;
 }
 body{
-  background-color: dodgerblue;
+  /* background-color: black; */
 }

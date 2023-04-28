@@ -6,8 +6,8 @@ function NflStandingsItem({team}){
 return(
     
     <div>
-        
-    <h2> {team.team.name} {team.won}-{team.lost} </h2>
+      
+    <h1>  {team.team.name} {team.won}-{team.lost} </h1>
     
     
 </div>
