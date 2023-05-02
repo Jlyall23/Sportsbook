@@ -24,12 +24,7 @@ function NBAStandings(){
     return(
       <div id="NBA-Background">
 
-<button 
-            onClick={() => {
-                navigate('/NBAstats')
-            }}
-            > 
-                NBA Stats </button>
+
    
       
       <ul id="Eastern">

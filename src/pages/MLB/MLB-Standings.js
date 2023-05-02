@@ -10,8 +10,8 @@ function MLBStandings(){
       MLBstandings().then((res)=>{
         console.log(res)
         const sortedTeamMLB = res.sort((a,b)=>b.won - a.won)
-        setAL(sortedTeamMLB.filter(team => team.group === 'American League'))
-        setNL(sortedTeamMLB.filter(team => team.group === 'National League'))
+        setAL(sortedTeamMLB.filter(team => team.group.name === 'American League'))
+        setNL(sortedTeamMLB.filter(team => team.group.name === 'National League'))
         })
      },[])
     return(

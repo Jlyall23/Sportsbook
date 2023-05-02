@@ -7,7 +7,7 @@ return(
     
     <div>
       
-    <h1>  {team.team.name} {team.won}-{team.lost} </h1>
+    <h1> <img height={50} src={team.team.logo}></img> {team.team.name} {team.won}-{team.lost} </h1>
     
     
 </div>

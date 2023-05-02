@@ -4,7 +4,7 @@ const options = {
 	method: 'GET',
 	headers: {
 		'content-type': 'application/octet-stream',
-		'X-RapidAPI-Key': 'c59be1e429msh71d174bf586dc1ap156878jsnee725f2e1a74',
+		'X-RapidAPI-Key': process.env.REACT_APP_JORDANnBAkEY,
 		'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com'
 	}
 };

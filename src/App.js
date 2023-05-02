@@ -19,7 +19,6 @@ function App() {
           <Link className='navLinks' to='/'> Home</Link>
           <Link className='navLinks' to='/about'> About</Link>
           <Link className='navLinks' to='/NFL'> NFL</Link>
-          <Link className='navLinks'to='/MLB'> MLB</Link>
           <Link className='navLinks' to='/NBA'> NBA</Link>
          
           
@@ -29,12 +28,8 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/NFL' element={<NFL />} />
             <Route path='/NFLstandings' element={<NFLStandings />} />
-            
-            <Route path='/MLB' element={<MLB />} />
-            <Route path='/MLBStandings' element={<MLBStandings />} />
-            
             <Route path='/NBA' element={<NBA />} />
-            <Route path='/NBAstats' element={<NbaStats />} />
+            
            
 
         </Routes>
