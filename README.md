@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+Lyall's Sports Network
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site Link: https://lyallssportsnetwork.onrender.com/ 
 
-## Available Scripts
 
-In the project directory, you can run:
+A sports website that displays professional sports standings that I created for a Per Scholas project.
 
-### `npm start`
+Motivation: There is nothing I'd rather watch than a good sports game. So I created an ESPN like website for a sports network I would love to run in the future.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website is a place for you to get the NBA and NFL standings. The website is very simple to navigate, just follow the navigation bar at the top and it will take you wherever you need to go. This program calls on multiple API's to get the standings data for the NFL and NBA.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I used HTML, CSS, JavaScript, React, and API's for this project.
 
-### `npm test`
+In the future I would like to add more sports and a ton of statistics for each of those sports. I would like to add sports betting odds and information as this was my original inspiration for this project. I would also like to start writing sports articles and posting them here. I think this page has tons of potential to grow.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A problem I could not solve was the NBA logos on the right side of the screen lining up evenly. I also had minor issues with the MLB part of this webpage, which is why it is no longer available on this website at the moment.
