@@ -1,7 +1,6 @@
 Lyall's Sports Network
 
-Live Site Link: https://lyallssportsnetwork.onrender.com/ 
-
+Live Site Link: https://lyallssportsnetwork.onrender.com/
 
 A sports website that displays professional sports standings that I created for a Per Scholas project.
 
